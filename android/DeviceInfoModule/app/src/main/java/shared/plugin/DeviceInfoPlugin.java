@@ -17,6 +17,8 @@ import org.json.JSONObject;
 
 public class DeviceInfoPlugin extends Plugin {
 
+    public static final String PLUGIN_GROUP_DEVICEINFO = "deviceinfo";
+
     public void getDeviceInfo() {
         JSONObject ret = new JSONObject();
         try {
