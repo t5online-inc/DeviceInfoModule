@@ -33,7 +33,13 @@
                           buildNo, @"appBuildNo",
                           deviceId, @"deviceId",
                           nil];
-    [self resolve:dict];
+    
+    NSDictionary* retData = [NSDictionary dictionaryWithObjectsAndKeys:
+                             @(STATUS_CODE_SUCCESS) , @"code",
+                             dict , @"message",
+                             nil];
+    
+    [self resolve:retData];
 }
 
 - (NSString*)getDeviceId
