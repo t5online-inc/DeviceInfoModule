@@ -171,6 +171,7 @@
 				TargetAttributes = {
 					EF7F14B81EF114C600E637EB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9LGNSY89WE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -386,6 +387,7 @@
 			baseConfigurationReference = E631AD1F0E8D61E998C075EA /* Pods-DeviceInfoModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LGNSY89WE;
 				INFOPLIST_FILE = DeviceInfoModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.t5online.DeviceInfoModule;
@@ -398,6 +400,7 @@
 			baseConfigurationReference = 55D210AAD80468A7DB86E706 /* Pods-DeviceInfoModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LGNSY89WE;
 				INFOPLIST_FILE = DeviceInfoModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.t5online.DeviceInfoModule;
@@ -424,6 +427,7 @@
 				EF7F14D21EF114C600E637EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
