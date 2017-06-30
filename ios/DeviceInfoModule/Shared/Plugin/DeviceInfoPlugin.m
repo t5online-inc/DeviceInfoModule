@@ -34,10 +34,9 @@
                           deviceId, @"deviceId",
                           nil];
     
-    NSDictionary* retData = [NSDictionary dictionaryWithObjectsAndKeys:
-                             @(STATUS_CODE_SUCCESS) , @"code",
-                             dict , @"message",
-                             nil];
+    NSMutableDictionary* retData = [NSMutableDictionary dictionary];
+    [retData setObject:@(STATUS_CODE_SUCCESS) forKey:@"code"];
+    [retData setObject:dict forKey:@"message"];
     
     [self resolve:retData];
 }
